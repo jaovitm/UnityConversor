@@ -3,11 +3,16 @@
 
 Um Conversor de Unidades simples criado em Java.
 
+
 ## Funcionalidades
 
 - Permite Converter de qualquer unidade para qualquer unidade
+- Preview em tempo Real
 
+## Live Preview
+<br/>
 
+![App Screenshot](https://github.com/jaovitm/UnityConversor/blob/master/2022-08-24-15-47-11.gif)
 
 ## Roadmap
 
@@ -23,7 +28,8 @@ Um Conversor de Unidades simples criado em Java.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/jaovitm/UnityConversor/blob/master/1.jpg)
+![App Screenshot](https://github.com/jaovitm/UnityConversor/blob/master/2.jpg)
 
 
 ## Licença
