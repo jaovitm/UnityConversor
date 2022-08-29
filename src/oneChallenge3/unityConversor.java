@@ -898,9 +898,9 @@ public class unityConversor {
 			BigDecimal ConvertedValue = new BigDecimal(newValue).setScale(2, RoundingMode.HALF_EVEN);
 			if (newValue == Math.floor(newValue)) {
 				int newConverted = (int) newValue;
-				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "K", Integer.toString(newConverted), "F"));
+				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "F", Integer.toString(newConverted), "C"));
 		   }else{
-				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "K", ConvertedValue.toString(), "F"));
+				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "F", ConvertedValue.toString(), "C"));
 
 		   }
 		}
@@ -916,9 +916,9 @@ public class unityConversor {
 			BigDecimal ConvertedValue = new BigDecimal(newValue).setScale(2, RoundingMode.HALF_EVEN);
 			if (newValue == Math.floor(newValue)) {
 				int newConverted = (int) newValue;
-				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "K", Integer.toString(newConverted), "F"));
+				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "F", Integer.toString(newConverted), "K"));
 		   }else{
-				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "K", ConvertedValue.toString(), "F"));
+				finalTemp.setText(tempResult(Integer.toString(toBeConverted), "F", ConvertedValue.toString(), "K"));
 
 		   }
 		}
